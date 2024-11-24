@@ -118,6 +118,9 @@ section {
 
 .carousel img {
     max-width: 600px;
+    max-height: 400px;
+    width:100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -129,7 +132,7 @@ section {
 
 .carousel button {
     padding: 0.5rem 1rem;
-    background-color: #0070f3;
+    background-color: #d42727;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -177,6 +180,10 @@ footer a:hover {
     .gallery img {
         width: 100%;
         max-width: 200px;
+    }
+    .carousel img {
+        max-width: 100%;
+        max-height: 300px; /* Adjust for smaller screens */
     }
 }
 .content-section {
